@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* Reset some default styles */
+body, header, main, footer {
+  margin: 0;
+  padding: 0;
+  background-color: #D4E0F4;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: transparent;
+  box-shadow: none; 
+}
+
+/*Réduit le menu*/
+.logo{
+	position: relative;
+	margin-left: 60px;
+}
+
+.logo{
+	cursor: pointer;
+	text-align: left;
+}
+
+/* Styles pour le menu de navigation */
+#side-menu {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Caché par défaut */
+    width: 250px;
+    height: 100%;
+    background-color: transparent;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+#side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#side-menu ul li {
+    margin-bottom: 10px;
+}
+
+/* Styles pour le bouton du menu */
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+}
+
+
+
+/* Modifier la couleur du texte et du bouton Connexion */
+.buttons .button1:first-child {
+  color: #28274F;
+  background-color: white;
+  border-radius: 20px; /* Arrondir les bords */
+  padding: 10px 20px; /* Augmenter la taille du bouton */
+  text-decoration: none; /* Supprimer le soulignement du texte */
+}
+
+/* Modifier la couleur du texte et du bouton Inscription */
+.buttons .button1:last-child {
+  color: white;
+  background-color: #28274F;
+  border-radius: 20px; /* Arrondir les bords */
+  padding: 10px 20px; /* Augmenter la taille du bouton */
+  text-decoration: none; /* Supprimer le soulignement du texte */
+}
+
+/* Modifier la couleur du texte et du bouton Incription */
+.buttons .button2:first-child {
+  color: white;
+  background-color: #28274F;
+  border-radius: 20px; /* Arrondir les bords */
+  padding: 10px 20px; /* Augmenter la taille du bouton */
+  text-decoration: none; /* Supprimer le soulignement du texte */
+}
+
+/* Modifier la couleur du texte et du bouton Inscription */
+.buttons .button2:last-child {
+  color: white;
+  background-color: #28274F;
+  border-radius: 20px; /* Arrondir les bords */
+  padding: 10px 20px; /* Augmenter la taille du bouton */
+  text-decoration: none; /* Supprimer le soulignement du texte */
+}
+
+
+
+/*-------Main Content--------*/
+
+.line-bloc1{
+	justify-content: space-between;
+	margin-top: 90px;
+	text-align: center;
+}
+
+.line-bloc2{
+	justify-content: space-between;
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 310px;
+}
+
+.line-bloc3{
+	justify-content: space-between;
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 310px;
+}
+
+/*---------- Footer ----------*/
+.footer-links {
+	justify-content: space-between;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.footer-links .gtc:first-child{
+	color: #28274F;
+    border-radius: 20px; /* Arrondir les bords */
+    padding: 10px 20px; /* Augmenter la taille du bouton */
+    text-decoration: none;
+}
+
+.footer-links .gtc:last-child{
+	color: #28274F;
+    border-radius: 20px; /* Arrondir les bords */
+    padding: 10px 20px; /* Augmenter la taille du bouton */
+    text-decoration: none;
+}
+
+.footer-links .contact:first-child{
+	color: #28274F;
+    border-radius: 20px; /* Arrondir les bords */
+    padding: 10px 20px; /* Augmenter la taille du bouton */
+    text-decoration: none;
+}
+
+.footer-links .contact:last-child{
+	color: #28274F;
+    border-radius: 20px; /* Arrondir les bords */
+    padding: 10px 20px; /* Augmenter la taille du bouton */
+    text-decoration: none;
+}
